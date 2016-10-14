@@ -237,7 +237,7 @@ class FeaturePreproces(object):
         pass
 
 if __name__ == '__main__':
-    file_name = "fx_supply_seller_sales_train_data.xls"
+    file_name = "train_data.xls"
 
     feature_preproces = FeaturePreproces()
     (X, y) = feature_preproces.load_data(file_name)
